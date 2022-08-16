@@ -44,21 +44,24 @@ document.getElementById('withdrow-btn').addEventListener('click', function(){
 
 // totoal expance 
 
-    if(totalWithdrow >= 0){
-        const totalExpance = expanceAmmount + totalWithdrow;
-        currentWithdrow.innerText = totalExpance;
-        withdrowField.value = '';
-    }
-    else{
-        alert('Please input a number');
-    }  
 
     if(totalWithdrow < balance){
+
+        if(totalWithdrow >= 0){
+            const totalExpance = expanceAmmount + totalWithdrow;
+            currentWithdrow.innerText = totalExpance;
+            withdrowField.value = '';
+        }
+        else{
+            alert('Please input a number');
+        }
         const totalBal = balance - totalWithdrow;
         totalBalance.innerText = totalBal;
+        
     } 
     else{
         alert('Not enough balance!');
+        withdrowField.value = '';
     }
 
     
