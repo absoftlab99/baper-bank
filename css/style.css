@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.main{
+    height: 770px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.diposit{
+    background-image: url("/images/diposit.svg");
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 187px;
+}
+.expence{
+    background-image: url("/images/expence.svg");
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 187px;
+}
+.withdrow{
+    background-image: url("/images/withdrow.svg");
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 187px;
+}
+.dpo{
+    background-image: url("/images/dipositbg.svg");
+    background-repeat: no-repeat;
+    width: 616px;
+    height: 367px;
+}
+.with{
+    background-image: url("/images/withdrowbg.svg");
+    background-repeat: no-repeat;
+    width: 616px;
+    height: 367px;
+}
