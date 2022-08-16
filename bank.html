@@ -13,13 +13,16 @@
         <div class="container px-4 text-left">
             <div class="row gx-5 mt-5">
                 <div class="col diposit">
-                    <p class="display-3 fw-bolder text-light pt-5">3344</p>
+                    <h2 class="text-light fw-bold pt-4">Total Diposit</h2>
+                    <p class="display-3 fw-bolder text-light">$<Span id="diposit">0</Span></p>
                 </div>
                 <div class="col expence">
-                    <p class="display-3 fw-bolder text-secondary pt-5">3344</p>
+                    <h2 class="text-secondary fw-bold pt-4">Total Withdrow</h2>
+                    <p class="display-3 fw-bolder text-secondary">$<Span id="total-expance">0</Span></p>
                 </div>
                 <div class="col withdrow">
-                    <p class="display-3 fw-bolder text-light pt-5">3344</p>
+                    <h2 class="text-light fw-bold pt-4">Total Balance</h2>
+                    <p class="display-3 fw-bolder text-light">$<Span id="total-balance">0</Span></p>
                 </div>
             </div>
         </div>
@@ -27,17 +30,17 @@
             <div class="row gx-5 mt-5">
                 <div class="col dpo d-flex flex-column justify-content-center pl-4 pb-5">
                     <div class="mb-3">
-                        <label for="exampleInputNumber1" class="form-label text-dark">Diposit Ammount</label>
-                        <input type="number" class="form-control rounded-4 w-75" id="exampleInputNumber1">
+                        <label for="diposit-field" class="form-label text-dark">Diposit Ammount</label>
+                        <input type="number" class="form-control rounded-4 w-75" id="diposit-field" required>
                     </div>
-                    <button class="btn btn-outline-dark rounded-5 w-75">Submit</button>
+                    <button id="button" class="btn btn-outline-dark rounded-5 w-75">Diposit</button>
                 </div>
                 <div class="col with d-flex flex-column justify-content-center pl-4 pb-5">
                     <div class="mb-3">
-                        <label for="exampleInputNumber" class="form-label text-dark">Diposit Ammount</label>
-                        <input type="number" class="form-control rounded-4 w-75" id="exampleInputNumber">
+                        <label for="withdrow-field" class="form-label text-dark">Withdrow Ammount</label>
+                        <input type="number" class="form-control rounded-4 w-75" id="withdrow-field" required>
                     </div>
-                    <button class="btn btn-outline-dark rounded-5 w-75">Submit</button>
+                    <button id="withdrow-btn" class="btn btn-outline-dark rounded-5 w-75">Withdrow</button>
                 </div>
             </div>
         </div>
