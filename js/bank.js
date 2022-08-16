@@ -53,7 +53,7 @@ document.getElementById('withdrow-btn').addEventListener('click', function(){
             withdrowField.value = '';
         }
         else{
-            alert('Please input a number');
+            alert('Please input a positive number');
         }
         const totalBal = balance - totalWithdrow;
         totalBalance.innerText = totalBal;
